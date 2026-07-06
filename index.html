@@ -1,393 +1,336 @@
 <!doctype html>
 <html lang="pt-BR">
-<head> 
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>VarejArte Consultoria — Consultoria estratégica para supermercados</title>
-<meta name="description" content="Há mais de 20 anos transformando supermercados na Região Norte. Consultoria estratégica em gestão, layout, marketing, controladoria e treinamentos operacionais." />
-<meta property="og:title" content="VarejArte Consultoria — Consultoria para supermercados" />
-<meta property="og:description" content="Estratégia, gestão e resultados para o varejo alimentar. Mais de 200 clientes atendidos." />
-<meta property="og:type" content="website" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style.css" />
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VarejArte Consultoria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#topo" class="brand">
+        <img class="brand__logo" src="./capy.png" alt="VarejArte Consultoria" />
+      </a>
+      <nav class="nav__links">
+        <a href="#sobre">Sobre</a>
+        <a href="#solucoes">Soluções</a>
+        <a href="#metodologia">Metodologia</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="https://wa.me/5592993534072?text=Ol%C3%A1%2C%20gostaria%20de%20uma%20consultoria%20da%20VarejArte"
+        class="btn btn--primary btn--sm" target="_blank" rel="noopener">Fale com um consultor</a>
+      <button class="nav__burger" aria-label="Abrir menu" id="burger"><span></span><span></span><span></span></button>
+    </div>
+  </header>
 
-<header class="nav" id="nav">
-  <div class="container nav__inner">
-    <a href="#topo" class="brand">
-      <span class="brand__mark" aria-hidden="true">
-        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="20" cy="20" r="19" fill="none" stroke="currentColor" stroke-width="2"/>
-          <path d="M8 10 L20 30 L32 10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M14 10 L20 22 L26 10" fill="none" stroke="#c8102e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </span>
-      <span class="brand__text">VAREJARTE<small>CONSULTORIA</small></span>
-    </a>
-    <nav class="nav__links">
-      <a href="#sobre">Sobre</a>
-      <a href="#solucoes">Soluções</a>
-      <a href="#metodologia">Metodologia</a>
-      <a href="#equipe">Equipe</a>
-      <a href="#clientes">Clientes</a>
-      <a href="#contato">Contato</a>
-    </nav>
-    <a href="https://wa.me/5592993534072?text=Ol%C3%A1%2C%20gostaria%20de%20uma%20consultoria%20da%20VarejArte" class="btn btn--primary btn--sm" target="_blank" rel="noopener">Fale com um consultor</a>
-    <button class="nav__burger" aria-label="Abrir menu" id="burger"><span></span><span></span><span></span></button>
-  </div>
-</header>
-
-<!-- HERO -->
-<section class="hero" id="topo">
-  <div class="hero__bg" aria-hidden="true"></div>
-  <div class="container hero__grid">
-    <div class="hero__content">
-      <span class="eyebrow">Consultoria para supermercados · Região Norte</span>
-      <h1>Transformamos o potencial do seu <span class="hl">supermercado</span> em resultados financeiros consistentes.</h1>
-      <p class="lead">Há mais de 20 anos identificamos oportunidades e implementamos estratégias eficazes para aumentar lucros, reduzir perdas e otimizar operações no varejo alimentar.</p>
-      <div class="hero__cta">
-        <a href="#contato" class="btn btn--primary">Solicite um diagnóstico</a>
-        <a href="#solucoes" class="btn btn--ghost">Nossas soluções →</a>
+  <section class="hero" id="topo">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <h1>Transformamos o potencial do seu <span class="hl">supermercado</span> em resultados financeiros
+          consistentes.</h1>
+        <p class="lead">Há mais de 20 anos identificamos oportunidades e implementamos estratégias eficazes para
+          aumentar lucros, reduzir perdas e otimizar operações no varejo alimentar.</p>
+        <div class="hero__cta">
+          <a href="#contato" class="btn btn--primary">Solicite um diagnóstico</a>
+          <a href="#solucoes" class="btn btn--ghost">Nossas soluções →</a>
+        </div>
       </div>
-      <ul class="hero__stats">
+      <div class="hero__media">
+        <img src="" alt="VarejArte Consultoria" class="ph" />
+        <div class="hero__badge">
+          <div>
+            <strong>Juntos somos mais!</strong>
+            <span>Consultoria especializada em varejo alimentar</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="parallax-stats" aria-label="Resultados da VarejArte">
+    <div class="container">
+      <ul class="parallax-stats__list">
         <li><strong>+200</strong><span>clientes atendidos</span></li>
         <li><strong>+20</strong><span>anos de experiência</span></li>
-        <li><strong>100%</strong><span>foco em varejo alimentar</span></li>
+        <li><strong>7</strong><span>áreas de atuação</span></li>
       </ul>
     </div>
-    <div class="hero__media">
-      <!-- IMAGEM: Hero principal (ex: família no supermercado ou foto da equipe) -->
-      <img src="" alt="VarejArte Consultoria" class="ph" data-ph="Hero principal" />
-      <div class="hero__badge">
-        <div>
-          <strong>Juntos somos mais!</strong>
-          <span>Consultoria especializada em varejo alimentar</span>
+  </section>
+
+  <section class="section" id="sobre">
+    <div class="container two-col">
+      <div>
+        <h2>Consultoria estratégica, apaixonada por varejo alimentar.</h2>
+        <p>A <strong>VarejArte</strong> é referência em assessoria estratégica para supermercados que buscam maximizar
+          lucros e conquistar o sucesso no mercado varejista. Não somos apenas uma empresa — somos uma equipe
+          comprometida em transformar desafios em oportunidades de lucro.</p>
+        <p>Diagnosticamos, estruturamos processos e implantamos indicadores que otimizam o fluxo operacional da loja —
+          do recebimento à gôndola, do estoque ao caixa.</p>
+        <div class="pill-row">
+          <span class="pill">Diagnóstico</span>
+          <span class="pill">Planejamento</span>
+          <span class="pill">Execução</span>
+          <span class="pill">Acompanhamento</span>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- LOGOS BAR -->
-<section class="logobar">
-  <div class="container">
-    <p>Referência para redes que buscam mais lucro, eficiência e crescimento</p>
-    <div class="logobar__list">
-      <span>Supermercados Barateiro</span>
-      <span>Atacadão Barateiro</span>
-      <span>RioNegro</span>
-      <span>Magazine Parque 10</span>
-      <span>Econorte</span>
-      <span>Frigopaz</span>
-      <span>Super Mix</span>
-      <span>Casa Portuguesa</span>
-    </div>
-  </div>
-</section>
-
-<!-- SOBRE -->
-<section class="section" id="sobre">
-  <div class="container two-col">
-    <div>
-      <span class="eyebrow">Quem somos</span>
-      <h2>Consultoria estratégica, apaixonada por varejo alimentar.</h2>
-      <p>A <strong>VarejArte</strong> é referência em assessoria estratégica para supermercados que buscam maximizar lucros e conquistar o sucesso no mercado varejista. Não somos apenas uma empresa — somos uma equipe comprometida em transformar desafios em oportunidades de lucro.</p>
-      <p>Diagnosticamos, estruturamos processos e implantamos indicadores que otimizam o fluxo operacional da loja — do recebimento à gôndola, do estoque ao caixa.</p>
-      <div class="pill-row">
-        <span class="pill">Diagnóstico</span>
-        <span class="pill">Planejamento</span>
-        <span class="pill">Execução</span>
-        <span class="pill">Acompanhamento</span>
+      <div class="location-photo">
+        <img src="" alt="Espaço de atendimento da VarejArte" class="ph" />
       </div>
     </div>
-    <div class="stack-img">
-      <!-- IMAGEM: Foto da estrutura / escritório 1 -->
-      <img src="" alt="Estrutura VarejArte" class="ph" data-ph="Estrutura 1" />
-      <!-- IMAGEM: Foto da estrutura / escritório 2 -->
-      <img src="" alt="Sala de treinamento" class="ph" data-ph="Estrutura 2" />
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- SOLUÇÕES -->
-<section class="section section--dark" id="solucoes">
-  <div class="container">
-    <div class="section__head">
-      <span class="eyebrow eyebrow--light">Nossas soluções</span>
-      <h2>Tudo que o seu supermercado precisa em um só lugar.</h2>
-      <p>Do chão de loja aos indicadores estratégicos — atuamos em todas as frentes que impactam a rentabilidade do seu negócio.</p>
-    </div>
-
-    <div class="cards">
-      <article class="card">
-        <div class="card__img"><img src="./images/services/treinamentos.jpg"
-            alt="Equipe reunida durante um treinamento profissional" loading="lazy"></div>
-        <div class="card__body">
-          <h3>Treinamentos Operacionais e Gerenciais</h3>
-          <p>Capacitação de gestores, líderes, caixas, repositores e atendentes com foco em excelência no servir e resultados no varejo alimentar.</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card__img"><img src="./images/services/indicadores.jpg"
-            alt="Painel com gráficos e indicadores de desempenho" loading="lazy"></div>
-        <div class="card__body">
-          <h3>Definição e Análise de Indicadores</h3>
-          <p>Revisão de processos, definição de KPIs, responsáveis e métodos de acompanhamento alinhados à estratégia de melhoria.</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card__img"><img src="./images/services/layout.jpg"
-            alt="Corredor organizado de supermercado" loading="lazy"></div>
-        <div class="card__body">
-          <h3>Layout de Loja e Departamentalização</h3>
-          <p>Disposição estratégica de gôndolas, corredores e planogramas para maximizar visibilidade, giro e ticket médio.</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card__img"><img src="./images/services/controladoria.jpg"
-            alt="Documentos e calculadora usados em análise financeira" loading="lazy"></div>
-        <div class="card__body">
-          <h3>Controladoria Financeira</h3>
-          <p>Gestão transparente de custos fixos e variáveis, análise de rentabilidade e viabilidade financeira mês a mês.</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card__img"><img src="./images/services/marketing.jpg"
-            alt="Planejamento de ações de marketing" loading="lazy"></div>
-        <div class="card__body">
-          <h3>Comunicação e Marketing</h3>
-          <p>Reposicionamento de marca, identidade visual, campanhas promocionais e merchandising para atrair mais clientes.</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card__img"><img src="./images/services/hortifruti.jpg"
-            alt="Produtos frescos organizados no setor de hortifruti" loading="lazy"></div>
-        <div class="card__body">
-          <h3>Execução no Hortifruti e Açougue</h3>
-          <p>Controles, inventários, armazenamento, fracionamento, manipulação e exposição com nossos supervisores no chão de loja.</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card__img"><img src="./images/services/mix-produtos.jpg"
-            alt="Prateleiras abastecidas com diferentes categorias de produtos" loading="lazy"></div>
-        <div class="card__body">
-          <h3>Avaliação de Mix de Produtos</h3>
-          <p>Curva ABC, sortimento ideal, giro e rentabilidade por categoria para reduzir rupturas e aumentar margens.</p>
-        </div>
-      </article>
-
-      <article class="card card--cta">
-        <div class="card__body">
-          <h3>Não sabe por onde começar?</h3>
-          <p>Solicite um diagnóstico gratuito e descubra as oportunidades imediatas da sua loja.</p>
-          <a href="#contato" class="btn btn--primary btn--sm">Quero um diagnóstico</a>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- METODOLOGIA -->
-<section class="section" id="metodologia">
-  <div class="container">
-    <div class="section__head section__head--center">
-      <span class="eyebrow">Metodologia</span>
-      <h2>Um caminho claro do diagnóstico ao resultado.</h2>
-    </div>
-    <ol class="steps">
-      <li>
-        <span class="steps__num">01</span>
-        <h3>Diagnóstico</h3>
-        <p>Entendimento do problema e identificação das oportunidades de melhoria em todos os setores da loja.</p>
-      </li>
-      <li>
-        <span class="steps__num">02</span>
-        <h3>Planejamento</h3>
-        <p>Definição de estratégias, indicadores, responsáveis e prazos para uma execução organizada.</p>
-      </li>
-      <li>
-        <span class="steps__num">03</span>
-        <h3>Execução</h3>
-        <p>Implantação das ações no chão de loja, com apoio direto da nossa equipe de supervisores.</p>
-      </li>
-      <li>
-        <span class="steps__num">04</span>
-        <h3>Acompanhamento</h3>
-        <p>Monitoramento dos resultados, ajustes contínuos e compartilhamento de técnicas e conhecimentos.</p>
-      </li>
-    </ol>
-  </div>
-</section>
-
-<!-- EQUIPE -->
-<section class="section section--muted" id="equipe">
-  <div class="container">
-    <div class="section__head">
-      <span class="eyebrow">Nossa equipe</span>
-      <h2>Mais de 40 anos somados de experiência em varejo alimentar.</h2>
-    </div>
-
-    <div class="team">
-      <div class="team__lead">
-        <!-- IMAGEM: Foto principal da equipe (ex: Alkaid + Julieta) -->
-        <img src="" alt="Equipe VarejArte" class="ph" data-ph="Equipe principal" />
+  <section class="section section--dark" id="solucoes">
+    <div class="container">
+      <div class="section__head">
+        <h2>Tudo que o seu supermercado precisa em um só lugar.</h2>
+        <p>Do chão de loja aos indicadores estratégicos — atuamos em todas as frentes que impactam a rentabilidade do
+          seu negócio.</p>
       </div>
-      <div class="team__intro">
-        <article>
-          <h3>Julieta Theodoro</h3>
-          <span>Consultora de Varejo</span>
-          <p>Graduada em Administração com especialização em Gestão de Pessoas e +20 anos no varejo alimentar. Atua em Gestão Comercial, Operacional, Controladoria Financeira e Desenvolvimento Humano.</p>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card__img"><img src="./images/services/treinamentos.jpg"
+              alt="Equipe reunida durante um treinamento profissional" loading="lazy"></div>
+          <div class="card__body">
+            <h3>Treinamentos Operacionais e Gerenciais</h3>
+            <p>Capacitação de gestores, líderes, caixas, repositores e atendentes com foco em excelência no servir e
+              resultados no varejo alimentar.</p>
+          </div>
         </article>
-        <article>
-          <h3>Alkaid Batalha</h3>
-          <span>Consultor de Varejo</span>
-          <p>Graduado em Publicidade e Propaganda, especialista em desenvolvimento humano, layout de loja, marketing, mix e sortimento ideal de produtos. +20 anos de comércio varejista.</p>
+
+        <article class="card">
+          <div class="card__img"><img src="./images/services/indicadores.jpg"
+              alt="Painel com gráficos e indicadores de desempenho" loading="lazy"></div>
+          <div class="card__body">
+            <h3>Definição e Análise de Indicadores</h3>
+            <p>Revisão de processos, definição de KPIs, responsáveis e métodos de acompanhamento alinhados à estratégia
+              de melhoria.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img"><img src="./images/services/layout.jpg" alt="Corredor organizado de supermercado"
+              loading="lazy"></div>
+          <div class="card__body">
+            <h3>Layout de Loja e Departamentalização</h3>
+            <p>Disposição estratégica de gôndolas, corredores e planogramas para maximizar visibilidade, giro e ticket
+              médio.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img"><img src="./images/services/controladoria.jpg"
+              alt="Documentos e calculadora usados em análise financeira" loading="lazy"></div>
+          <div class="card__body">
+            <h3>Controladoria Financeira</h3>
+            <p>Gestão transparente de custos fixos e variáveis, análise de rentabilidade e viabilidade financeira mês a
+              mês.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img"><img src="./images/services/marketing.jpg" alt="Planejamento de ações de marketing"
+              loading="lazy"></div>
+          <div class="card__body">
+            <h3>Comunicação e Marketing</h3>
+            <p>Reposicionamento de marca, identidade visual, campanhas promocionais e merchandising para atrair mais
+              clientes.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img"><img src="./images/services/hortifruti.jpg"
+              alt="Produtos frescos organizados no setor de hortifruti" loading="lazy"></div>
+          <div class="card__body">
+            <h3>Execução no Hortifruti e Açougue</h3>
+            <p>Controles, inventários, armazenamento, fracionamento, manipulação e exposição com nossos supervisores no
+              chão de loja.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img"><img src="./images/services/mix-produtos.jpg"
+              alt="Prateleiras abastecidas com diferentes categorias de produtos" loading="lazy"></div>
+          <div class="card__body">
+            <h3>Avaliação de Mix de Produtos</h3>
+            <p>Curva ABC, sortimento ideal, giro e rentabilidade por categoria para reduzir rupturas e aumentar margens.
+            </p>
+          </div>
+        </article>
+
+        <article class="card card--cta">
+          <div class="card__body">
+            <h3>Não sabe por onde começar?</h3>
+            <p>Solicite um diagnóstico gratuito e descubra as oportunidades imediatas da sua loja.</p>
+            <a href="#contato" class="btn btn--primary btn--sm">Quero um diagnóstico</a>
+          </div>
         </article>
       </div>
     </div>
+  </section>
 
-    <div class="staff">
-      <div class="staff__item"><strong>Tays Leal</strong><span>Controller</span></div>
-      <div class="staff__item"><strong>Ingredes Carvalho</strong><span>Controller</span></div>
-      <div class="staff__item"><strong>Kênia Figueira</strong><span>Analista Financeiro</span></div>
-      <div class="staff__item"><strong>Jaqueline dos Anjos</strong><span>Supervisora de Padaria</span></div>
-      <div class="staff__item"><strong>Keytson dos Santos</strong><span>Supervisor de Açougue</span></div>
-      <div class="staff__item"><strong>Emerson Silva</strong><span>Supervisor de Hortifruti</span></div>
-    </div>
-  </div>
-</section>
-
-<!-- CLIENTES -->
-<section class="section" id="clientes">
-  <div class="container">
-    <div class="section__head">
-      <span class="eyebrow">Clientes</span>
-      <h2>Mais de 200 clientes atendidos na Região Norte.</h2>
-      <p>Redes de supermercados, atacadistas, distribuidoras e negócios do varejo alimentar que confiam na VarejArte para crescer.</p>
-    </div>
-    <div class="clients-grid">
-      <div>Supermercados Barateiro</div>
-      <div>Atacadão Barateiro</div>
-      <div>RioNegro Supermercado</div>
-      <div>Magazine Parque 10</div>
-      <div>Econorte</div>
-      <div>Comercial Pablo</div>
-      <div>Natan Megamix</div>
-      <div>Supermercado Frigopaz</div>
-      <div>Mercantil Real</div>
-      <div>Expresso Brasileiro</div>
-      <div>Super Brasileiro</div>
-      <div>Supermercado Floripes</div>
-      <div>Casa Portuguesa</div>
-      <div>Supermercado São Paulo</div>
-      <div>Supermercado Bom Preço</div>
-      <div>Supermercado Novinha</div>
-      <div>GR Supermercados</div>
-      <div>Distribuidora Ótimo</div>
-      <div>Super Mix Supermercados</div>
-      <div>Frigoalves Supermercado</div>
-      <div>Sacolão Dona Clara</div>
-      <div>Açougue M Nobre</div>
-      <div>NR Distribuidora</div>
-      <div>Soho Lounge</div>
-    </div>
-  </div>
-</section>
-
-<!-- CTA -->
-<section class="cta-band">
-  <div class="container cta-band__inner">
-    <div>
-      <h2>Excelência não é uma habilidade. É uma atitude.</h2>
-      <p>Descubra como podemos transformar o potencial do seu supermercado em resultados financeiros consistentes.</p>
-    </div>
-    <a href="#contato" class="btn btn--primary btn--lg">Falar com a VarejArte</a>
-  </div>
-</section>
-
-<!-- CONTATO -->
-<section class="section section--dark" id="contato">
-  <div class="container two-col two-col--contact">
-    <div>
-      <span class="eyebrow eyebrow--light">Contato</span>
-      <h2>Vamos conversar sobre o seu supermercado.</h2>
-      <p>Preencha o formulário ou fale conosco diretamente. Respondemos em até 1 dia útil.</p>
-
-      <ul class="contact-list">
-        <li><span>📞</span> <a href="tel:+5592993534072">(92) 99353-4072</a></li>
-        <li><span>✉️</span> <a href="mailto:atendimento@varejarte.com.br">atendimento@varejarte.com.br</a></li>
-        <li><span>📸</span> <a href="https://instagram.com/varejarte" target="_blank" rel="noopener">@varejarte</a></li>
-        <li><span>📍</span> Manaus – AM · Atendimento em toda Região Norte</li>
-      </ul>
-    </div>
-
-    <form class="form" id="contact-form" novalidate>
-      <div class="form__row">
-        <label>Nome <input type="text" name="nome" required placeholder="Seu nome" /></label>
-        <label>Empresa <input type="text" name="empresa" placeholder="Nome do supermercado" /></label>
+  <section class="section" id="metodologia">
+    <div class="container">
+      <div class="section__head section__head--center">
+        <h2>Um caminho claro do diagnóstico ao resultado.</h2>
       </div>
-      <div class="form__row">
-        <label>E-mail <input type="email" name="email" required placeholder="voce@empresa.com" /></label>
-        <label>WhatsApp <input type="tel" name="telefone" required placeholder="(00) 00000-0000" /></label>
+      <ol class="steps">
+        <li>
+          <span class="steps__num">01</span>
+          <h3>Diagnóstico</h3>
+          <p>Entendimento do problema e identificação das oportunidades de melhoria em todos os setores da loja.</p>
+        </li>
+        <li>
+          <span class="steps__num">02</span>
+          <h3>Planejamento</h3>
+          <p>Definição de estratégias, indicadores, responsáveis e prazos para uma execução organizada.</p>
+        </li>
+        <li>
+          <span class="steps__num">03</span>
+          <h3>Execução</h3>
+          <p>Implantação das ações no chão de loja, com apoio direto da nossa equipe de supervisores.</p>
+        </li>
+        <li>
+          <span class="steps__num">04</span>
+          <h3>Acompanhamento</h3>
+          <p>Monitoramento dos resultados, ajustes contínuos e compartilhamento de técnicas e conhecimentos.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--muted" id="equipe">
+    <div class="container">
+      <div class="section__head">
+        <h2>Mais de 40 anos somados de experiência em varejo alimentar.</h2>
       </div>
-      <label>Como podemos ajudar?
-        <textarea name="mensagem" rows="4" placeholder="Conte um pouco sobre o seu negócio..."></textarea>
-      </label>
-      <button type="submit" class="btn btn--primary btn--lg">Enviar mensagem</button>
-      <p class="form__status" id="form-status" role="status"></p>
-    </form>
-  </div>
-</section>
 
-<footer class="footer">
-  <div class="container footer__inner">
-    <div>
-      <div class="brand brand--footer">
-        <span class="brand__mark" aria-hidden="true">
-          <svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="19" fill="none" stroke="#fff" stroke-width="2"/><path d="M8 10 L20 30 L32 10" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/><path d="M14 10 L20 22 L26 10" fill="none" stroke="#c8102e" stroke-width="3" stroke-linecap="round"/></svg>
-        </span>
-        <span class="brand__text">VAREJARTE<small>CONSULTORIA</small></span>
+      <div class="team">
+        <div class="team__lead">
+          <img src="" alt="Equipe VarejArte" class="ph" />
+        </div>
+        <div class="team__intro">
+          <article>
+            <h3>Julieta Theodoro</h3>
+            <span>Consultora de Varejo</span>
+            <p>Graduada em Administração com especialização em Gestão de Pessoas e +20 anos no varejo alimentar. Atua em
+              Gestão Comercial, Operacional, Controladoria Financeira e Desenvolvimento Humano.</p>
+          </article>
+          <article>
+            <h3>Alkaid Batalha</h3>
+            <span>Consultor de Varejo</span>
+            <p>Graduado em Publicidade e Propaganda, especialista em desenvolvimento humano, layout de loja, marketing,
+              mix e sortimento ideal de produtos. +20 anos de comércio varejista.</p>
+          </article>
+        </div>
       </div>
-      <p>Consultoria especializada em varejo alimentar. Juntos somos mais.</p>
-    </div>
-    <div>
-      <h4>Soluções</h4>
-      <a href="#solucoes">Treinamentos</a>
-      <a href="#solucoes">Indicadores</a>
-      <a href="#solucoes">Layout de loja</a>
-      <a href="#solucoes">Controladoria</a>
-      <a href="#solucoes">Marketing</a>
-    </div>
-    <div>
-      <h4>Empresa</h4>
-      <a href="#sobre">Sobre</a>
-      <a href="#equipe">Equipe</a>
-      <a href="#clientes">Clientes</a>
-      <a href="#contato">Contato</a>
-    </div>
-    <div>
-      <h4>Contato</h4>
-      <p>(92) 99353-4072<br/>atendimento@varejarte.com.br<br/>@varejarte</p>
-    </div>
-  </div>
-  <div class="container footer__bottom">
-    <span>© <span id="year"></span> VarejArte Consultoria. Todos os direitos reservados.</span>
-  </div>
-</footer>
 
-<a href="https://wa.me/5592993534072" class="whats" target="_blank" rel="noopener" aria-label="Fale conosco no WhatsApp">
-  <svg viewBox="0 0 32 32" width="28" height="28" fill="#fff"><path d="M19.11 17.55c-.28-.14-1.64-.81-1.9-.9-.25-.09-.44-.14-.62.14-.18.28-.71.9-.87 1.08-.16.18-.32.2-.6.07-.28-.14-1.17-.43-2.24-1.38-.83-.74-1.38-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.32.42-.48.14-.16.19-.28.28-.46.09-.18.05-.35-.02-.48-.07-.14-.62-1.5-.85-2.05-.22-.53-.45-.46-.62-.47l-.53-.01c-.18 0-.48.07-.73.35-.25.28-.96.94-.96 2.28 0 1.34.98 2.64 1.12 2.83.14.18 1.94 2.96 4.7 4.15.66.28 1.17.45 1.57.58.66.21 1.26.18 1.74.11.53-.08 1.64-.67 1.87-1.31.23-.65.23-1.2.16-1.32-.07-.11-.25-.18-.53-.32M16 3C8.82 3 3 8.82 3 16c0 2.29.6 4.44 1.65 6.31L3 29l6.86-1.62A12.96 12.96 0 0 0 16 29c7.18 0 13-5.82 13-13S23.18 3 16 3"/></svg>
-</a>
+      <div class="staff">
+        <div class="staff__item"><strong>Tays Leal</strong><span>Controller</span></div>
+        <div class="staff__item"><strong>Ingredes Carvalho</strong><span>Controller</span></div>
+        <div class="staff__item"><strong>Kênia Figueira</strong><span>Analista Financeiro</span></div>
+        <div class="staff__item"><strong>Jaqueline dos Anjos</strong><span>Supervisora de Padaria</span></div>
+        <div class="staff__item"><strong>Keytson dos Santos</strong><span>Supervisor de Açougue</span></div>
+        <div class="staff__item"><strong>Emerson Silva</strong><span>Supervisor de Hortifruti</span></div>
+      </div>
+    </div>
+  </section>
 
-<script src="./index.js"></script>
+  <section class="cta-band">
+    <div class="container cta-band__inner">
+      <div>
+        <h2>Excelência não é uma habilidade. É uma atitude.</h2>
+        <p>Descubra como podemos transformar o potencial do seu supermercado em resultados financeiros consistentes.</p>
+      </div>
+      <a href="#contato" class="btn btn--primary btn--lg">Falar com a VarejArte</a>
+    </div>
+  </section>
+
+  <section class="section section--dark" id="contato">
+    <div class="container two-col two-col--contact">
+      <div>
+        <h2>Vamos conversar sobre o seu supermercado.</h2>
+        <p>Preencha o formulário ou fale conosco diretamente. Respondemos em até 1 dia útil.</p>
+
+        <ul class="contact-list">
+          <li><span aria-hidden="true"><i class="fa-solid fa-phone"></i></span> <a href="tel:+5592993534072">(92)
+              99353-4072</a></li>
+          <li><span aria-hidden="true"><i class="fa-solid fa-envelope"></i></span> <a
+              href="mailto:atendimento@varejarte.com.br">atendimento@varejarte.com.br</a></li>
+          <li><span aria-hidden="true"><i class="fa-brands fa-instagram"></i></span> <a
+              href="https://instagram.com/varejarte" target="_blank" rel="noopener">@varejarte</a></li>
+          <li><span aria-hidden="true"><i class="fa-solid fa-location-dot"></i></span> Manaus – AM · Atendimento em toda
+            Região Norte</li>
+        </ul>
+      </div>
+
+      <form class="form" id="contact-form" novalidate>
+        <div class="form__row">
+          <label>Nome <input type="text" name="nome" required placeholder="Seu nome" /></label>
+          <label>Empresa <input type="text" name="empresa" placeholder="Nome do supermercado" /></label>
+        </div>
+        <div class="form__row">
+          <label>E-mail <input type="email" name="email" required placeholder="voce@empresa.com" /></label>
+          <label>WhatsApp <input type="tel" name="telefone" required placeholder="(00) 00000-0000" /></label>
+        </div>
+        <label>Como podemos ajudar?
+          <textarea name="mensagem" rows="4" placeholder="Conte um pouco sobre o seu negócio..."></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary btn--lg">Enviar mensagem</button>
+        <p class="form__status" id="form-status" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__about">
+        <div class="brand brand--footer">
+          <img class="footer__logo" src="./logo.png" alt="VarejArte Consultoria" />
+        </div>
+        <p>Consultoria especializada em varejo alimentar. Juntos somos mais.</p>
+      </div>
+      <div>
+        <h4>Soluções</h4>
+        <a href="#solucoes">Treinamentos</a>
+        <a href="#solucoes">Indicadores</a>
+        <a href="#solucoes">Layout de loja</a>
+        <a href="#solucoes">Controladoria</a>
+        <a href="#solucoes">Marketing</a>
+      </div>
+      <div>
+        <h4>Empresa</h4>
+        <a href="#sobre">Sobre</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <p>(92) 99353-4072<br />atendimento@varejarte.com.br<br />@varejarte</p>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> VarejArte Consultoria. Todos os direitos reservados.</span>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5592993534072" class="whats" target="_blank" rel="noopener"
+    aria-label="Fale conosco no WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <script src="./index.js"></script>
 </body>
+
 </html>
