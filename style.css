@@ -273,10 +273,7 @@ img.ph {
 .hero__bg {
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(1000px 500px at -10% -10%, rgba(200, 16, 46, .35), transparent 60%),
-    radial-gradient(900px 500px at 110% 110%, rgba(23, 133, 255, .18), transparent 60%),
-    linear-gradient(135deg, #0a1830 0%, #0b1e3a 60%, #111d3a 100%);
+  background-color: rgba(2, 2, 56, 0.43);
 }
 
 .hero__bg::after {
@@ -380,7 +377,7 @@ img.ph {
   width: min(48vw, 590px);
   max-width: none;
   height: auto;
-  opacity: .82;
+  opacity: .92;
   transform: none;
   transform-origin: center;
   filter: drop-shadow(0 30px 58px rgba(0, 0, 0, .2));
@@ -1338,13 +1335,23 @@ img.ph {
   }
 
   .parallax-stats {
-    min-height: auto;
-    padding: 64px 0;
-    background-attachment: scroll
+    min-height: calc(100svh - var(--nav-offset));
+    padding: 56px 0;
+    background-attachment: scroll;
+    background-position: center center
   }
 
   .parallax-stats__list {
     grid-template-columns: 1fr;
-    gap: 42px
+    gap: clamp(34px, 8vh, 48px)
+  }
+
+  .parallax-stats__list strong {
+    font-size: clamp(3.1rem, 14vw, 4.15rem)
+  }
+
+  .parallax-stats__list span {
+    margin-top: 10px;
+    font-size: .95rem
   }
 }
